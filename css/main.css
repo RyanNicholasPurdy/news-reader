@@ -35,9 +35,20 @@ html {
   text-decoration: none;
   padding: .5em .75em;
   transition: all 500ms linear;
+  position: relative;
 }
 
 .tabs a:hover{
   background-color: #000;
   color: #fff;
+}
+
+.badge{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  top: -5px;
+  left: calc(50% - 5px);
+  transform: rotate(45deg);
 }
