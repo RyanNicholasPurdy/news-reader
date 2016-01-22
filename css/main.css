@@ -17,3 +17,27 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.tabs{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.tabs li{
+  display: inline-block;
+}
+
+.tabs a{
+  display: inline-block;
+  background-color: #e2e2e2;
+  color: #000;
+  text-decoration: none;
+  padding: .5em .75em;
+  transition: all 500ms linear;
+}
+
+.tabs a:hover{
+  background-color: #000;
+  color: #fff;
+}
